@@ -33,7 +33,7 @@ class SignUpController extends Controller
     
         $user = User::create($data);
     
-        event(new Registered($user));
+        // event(new Registered($user));
     
         return redirect()->route('verification.notice')->with('toast_success', 'Silakan periksa email Anda untuk verifikasi.');
     }
