@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-HMk4Sz2cLcjG73/xbo2Hj2FVbdZ76mZSf7yGDzYUevggPTcJ2tmn4y/06JRLmINy4aHzEB/1FSizJVy+0VH8BQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <title>Hakan</title>
     <!-- File CSS Tambahan -->
     <link rel="stylesheet" type="text/css" href="{{ asset('Assets/css/bootstrap.min.css') }}">
