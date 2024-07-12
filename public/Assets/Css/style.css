@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+
+body {
+  background-color: #eee;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+#side_nav {
+  background-color: #011209;
+  max-width: 250px;
+  min-width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.header-box {
+  text-align: center;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: white; /* Menambahkan warna teks putih pada header */
+  padding: 10px; /* Memberi padding pada header */
+  margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px; /* Memberi jarak antar menu sidebar */
+}
+
+.sidebar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar li a:hover {
+  background-color: #47e857; /* Warna latar belakang saat dihover */
+  color: black; /* Warna teks saat dihover */
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px; /* Memberi padding pada konten */
+}
+
+.content .table {
+  table-layout: fixed;
+  width: 100%;
+  background-color: white; /* Memberi warna latar belakang putih pada tabel */
+  border-radius: 10px; /* Menggunakan border-radius untuk sudut yang lebih lembut */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus pada tabel */
+}
+
+.content .table thead th {
+  background-color: #87ee61; /* Warna latar belakang header tabel */
+  color: white; /* Warna teks header tabel */
+  border: none; /* Menghapus border pada header tabel */
+  padding: 12px 15px; /* Memberi padding pada header tabel */
+  text-align: left; /* Rata teks ke kiri pada header tabel */
+}
+
+.content .table tbody td {
+  padding: 10px 15px; 
+}
+
+.con nt .table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+.content .table tbody tr:hover {
+  background-color: #e0e0e0; /* Warna latar belakang saat baris dihover */
+}
+
+.footer-wrapper {
+  background-color: black;
+  padding: 15px 0;
+  font-size: 14px;
+  color: white; /* Warna teks putih pada footer */
+  text-align: center; /* Rata tengah teks pada footer */
+  position: fixed; /* Membuat footer tetap di bagian bawah */
+  width: 100%; /* Lebar penuh footer */
+  bottom: 0; /* Memposisikan footer di bagian bawah */
+}
+
+@media (max-width: 767px) {
+  #side_nav {
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1;
+  }
+
+  #side_nav.active {
+    margin-left: 0;
+  }
+
+  .content .table {
+    font-size: 12px; /* Ukuran font lebih kecil pada layar kecil */
+  }
+}
+
+@media (max-width: 820px) {
+  .header-text {
+    font-size: 18px; /* Ukuran font header sedikit dikurangi */
+  }
+
+  .sidebar li a {
+    padding: 10px 15px; /* Mengurangi padding pada menu sidebar */
+    font-size: 14px; /* Ukuran font sedikit diperbesar */
+  }
+
+  .content .table {
+    font-size: 14px; /* Ukuran font tabel disesuaikan */
+  }
+
+  .footer-wrapper {
+    font-size: 12px; /* Ukuran font footer diperkecil */
+  }
+}
