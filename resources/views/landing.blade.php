@@ -46,18 +46,18 @@
     <!-- ***** Akhir Area Umum ***** -->
 
     <!-- ***** File JS ***** -->
-    <script src="{{ asset('assets/Js/jquery-2.1.0.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/popper.js') }}"></script>
-    <script src="{{ asset('assets/Js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/scrollreveal.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/imgfix.min.js') }}"></script>
-    <script src="{{ asset('assets/Js/slick.js') }}"></script>
-    <script src="{{ asset('assets/Js/lightbox.js') }}"></script>
-    <script src="{{ asset('assets/Js/isotope.js') }}"></script>
-    <script src="{{ asset('assets/Js/custom.js') }}"></script>
+    <script src="{{ asset('Assets/Js/jquery-2.1.0.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/popper.js') }}"></script>
+    <script src="{{ asset('Assets/Js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/scrollreveal.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/imgfix.min.js') }}"></script>
+    <script src="{{ asset('Assets/Js/slick.js') }}"></script>
+    <script src="{{ asset('Assets/Js/lightbox.js') }}"></script>
+    <script src="{{ asset('Assets/Js/isotope.js') }}"></script>
+    <script src="{{ asset('Assets/Js/custom.js') }}"></script>
 </body>
 
 </html>
