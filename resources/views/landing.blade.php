@@ -10,9 +10,9 @@
     
     <title>Hakan</title>
     <!-- File CSS Tambahan -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('Assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('Assets/css/font-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('Assets/css/templatemo-softy-pinko.css') }}">  
+    <link rel="stylesheet" type="text/css" href="{{ asset('Assets/Css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('Assets/Css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('Assets/Css/templatemo-softy-pinko.css') }}">  
 </head>
 
 <body>
@@ -46,18 +46,18 @@
     <!-- ***** Akhir Area Umum ***** -->
 
     <!-- ***** File JS ***** -->
-    <script src="{{ asset('assets/js/jquery-2.1.0.min.js') }}"></script>
-    <script src="{{ asset('assets/js/popper.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/scrollreveal.min.js') }}"></script>
-    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('assets/js/imgfix.min.js') }}"></script>
-    <script src="{{ asset('assets/js/slick.js') }}"></script>
-    <script src="{{ asset('assets/js/lightbox.js') }}"></script>
-    <script src="{{ asset('assets/js/isotope.js') }}"></script>
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/Js/jquery-2.1.0.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/popper.js') }}"></script>
+    <script src="{{ asset('assets/Js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/scrollreveal.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/imgfix.min.js') }}"></script>
+    <script src="{{ asset('assets/Js/slick.js') }}"></script>
+    <script src="{{ asset('assets/Js/lightbox.js') }}"></script>
+    <script src="{{ asset('assets/Js/isotope.js') }}"></script>
+    <script src="{{ asset('assets/Js/custom.js') }}"></script>
 </body>
 
 </html>
